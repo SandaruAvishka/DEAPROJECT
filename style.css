@@ -1,0 +1,244 @@
+body{
+   /*  background-image: url("img/bag.jpg");  */
+    background-color: #cccccc;
+    
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 200px;
+
+}
+.box h1{
+    color: aqua;
+    font-family: serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 500 ;
+}
+/* CSS used here will be applied after bootstrap.css */
+
+    
+
+
+.navbar {
+    justify-content: flex-end;
+}
+
+.navbar .nav-link {
+    padding-right: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+/* Additional CSS for contact form */
+.contact-form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.contact-left {
+    flex-basis: 50%;
+    text-align: center;
+    
+}
+
+.contact-right {
+    flex-basis: 60%;
+    text-align: center;
+}
+
+.contact-left p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contact-left p i {
+    color: yellow;
+    margin-right: 15px;
+    font-size: 25px;
+    
+}
+
+.social-icon {
+    margin-top: 30px;
+}
+
+.social-icon a {
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+   display: inline-block;
+    transition: transform 0.5s;
+}
+
+.social-icon a:hover {
+    color: yellowgreen;
+    transform: translateY(-5px);
+}
+
+.button.button2 {
+    display: inline-block;
+   
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button.button2:hover {
+    background: aqua;
+    color: black;
+    font-weight: 650;
+    text-align: center;
+}
+
+.contact-right form {
+    width: 100%;
+    text-align: center;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 20px;
+    color: aliceblue;
+    font: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form .button2 {
+    padding: 10px 50px;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.container .row {
+    text-align: center;
+    margin-top:-5%;
+}
+
+.container .row .col-md-6 {
+    offset-md-3;
+}
+
+.container .row .col-md-6 .contact-left {
+    text-align: center;
+}
+
+.container .row .col-md-6 .contact-right {
+    text-align: center;
+}
+
+.container .row .col-md-6 .contact-left p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.container .row .col-md-6 .contact-left p i {
+    color: yellow;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+.container .row .col-md-6 .contact-right form {
+    width: 100%;
+    text-align: center;
+}
+
+.container .row .col-md-6 .contact-right form input,
+.container .row .col-md-6 .contact-right form textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 20px;
+    color: aliceblue;
+    font: 15px;
+    border-radius: 10px;
+    text-align:center;
+}
+/*
+.contact-right form input::placeholder,
+.contact-right form textarea::placeholder {
+    color: white;
+}
+*/
+
+/*--- about us ---*/
+
+   body {
+            background: url(i2.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .navbar {
+            justify-content: flex-end;
+        }
+
+        .navbar .nav-link {
+            padding-right: 20px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+        
+       /*--- special offers --*/
+        .navbar {
+            justify-content: flex-end;
+        }
+
+        .navbar .nav-link {
+            padding-right: 20px;
+        }
+
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+        
+        .col-md-6
+        {
+             margin-top: 150px;
+    margin-bottom: 150px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+        }
